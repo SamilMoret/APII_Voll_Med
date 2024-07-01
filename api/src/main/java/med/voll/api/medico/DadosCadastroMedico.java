@@ -2,7 +2,8 @@ package med.voll.api.medico;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
-import med.voll.api.endereco.DadosEnederco;
+import med.voll.api.endereco.DadosEndereco;
+
 
 public record DadosCadastroMedico(
 
@@ -26,5 +27,5 @@ public record DadosCadastroMedico(
 
         @NotNull
         @Valid
-        DadosEnederco endereco) {
+        DadosEndereco endereco) {
 }
